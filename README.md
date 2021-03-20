@@ -36,7 +36,7 @@ Link do projeto: https://marco-my-hero-academia.netlify.app/
 
 ### Prerequisites
 
-Para começar a utilizar é necessário ter o Node instalado. Também é necessário instalar o Yarn:
+Para instalar o projeto na sua máquina é necessário ter o Node instalado. Também é necessário instalar o Yarn:
 * npm
   ```sh
   npm install --global yarn
@@ -54,9 +54,9 @@ Para começar a utilizar é necessário ter o Node instalado. Também é necess�
 	```
 3. O link da API é configurado no arquivo `.env` (Que já está no projeto)
    ```JS
-   REACT_APP_API_ENDPOINT=https://myheroacademiaapi.com/api/;
+   REACT_APP_API_ENDPOINT=https://myheroacademiaapi.com/api/
    ```
-4. Para executar o projeto basta rodar o comando:
+4. Para executar o projeto basta utilizar o comando:
    ```sh
    yarn start
    ```
@@ -66,7 +66,7 @@ Para começar a utilizar é necessário ter o Node instalado. Também é necess�
 
 Os testes do projeto foram criados usando a biblioteca Testing Library e compõe uma série de verificações acerca dos componentes da aplicação. Há testes para os componentes Header, Menu, Loading e Pagination. O processo é composto por uma Suite e 5 testes.
 
-1. Para executar os testes basta executar o comando:
+1. Para executar os testes basta utilizar o comando:
 	```sh
 	yarn test --watchAll
 	```
