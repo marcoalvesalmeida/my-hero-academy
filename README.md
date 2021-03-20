@@ -71,4 +71,14 @@ Os testes do projeto foram criados usando a biblioteca Testing Library e compõe
 	yarn test --watchAll
 	```
 
+<p align="center">
+  <a href="https://marco-my-hero-academia.netlify.app/">
+    <img src="https://i.ibb.co/prdwRcX/Sem-t-tulo2.png" alt="Tela Desktop" />
+  </a>
+	<a href="https://marco-my-hero-academia.netlify.app/">
+		<img src="https://i.ibb.co/NpVrT6y/Sem-t-tulo.png" alt="Tela Mobile" />
+	</a>
+</p>
+
+
 
