@@ -28,9 +28,6 @@ const theme = {
 			primary: '0.26px',
 		},
 	},
-	shadows: {
-		primary: '1px 1px 5px 1px rgba(0,0,0,0.54);',
-	},
 	borders: {
 		primary: '4px',
 	},

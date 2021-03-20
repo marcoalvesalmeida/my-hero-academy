@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CharacterContainer = styled.section`
 	padding-top: 56px;
-	padding-bottom: 56px;
+	padding-bottom: 32px;
 	height: auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

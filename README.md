@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://marco-my-hero-academia.netlify.app/">
+    <img src="src/assets/logo.png" alt="Logo" width="135">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">React My Hero Academia</h3>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Começando</a>
+      <ul>
+        <li><a href="#prerequisites">Pré Requisitos</a></li>
+        <li><a href="#installation">Instalação</a></li>
+				<li><a href="#tests">Testes Unitários</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- GETTING STARTED -->
+## Getting Started
+Esse projeto foi realizado utilizando: ReactJS, React Hooks, Eslint, Prettier, EditorConfig, PropTypes, Yarn, StyledComponents, FontAwesome, Axios, React Toastify, TestingLibrary, Jest, Netlify.
 
-### `yarn test`
+Para usar a aplicação basta acessar o endereço abaixo e navegar entre as páginas visualizando os personagens.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Link do projeto: https://marco-my-hero-academia.netlify.app/
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para começar a utilizar é necessário ter o Node instalado. Também é necessário instalar o Yarn:
+* npm
+  ```sh
+  npm install --global yarn
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório
+	```sh
+	git clone https://github.com/marcoalvesalmeida/my-hero-academy.git
+	```
+2. Instale os pacotes necessário na pasta do projeto usando:
+	```sh
+	yarn
+	```
+3. O link da API é configurado no arquivo `.env` (Que já está no projeto)
+   ```JS
+   REACT_APP_API_ENDPOINT=https://myheroacademiaapi.com/api/;
+   ```
+4. Para executar o projeto basta rodar o comando:
+   ```sh
+   yarn start
+   ```
+5. Acesse localmente em: http://localhost:3000
 
-### `yarn eject`
+### Tests
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Os testes do projeto foram criados usando a biblioteca Testing Library e compõe uma série de verificações acerca dos componentes da aplicação. Há testes para os componentes Header, Menu, Loading e Pagination. O processo é composto por uma Suite e 5 testes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Para executar os testes basta executar o comando:
+	```sh
+	yarn test --watchAll
+	```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
